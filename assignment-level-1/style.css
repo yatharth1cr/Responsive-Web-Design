@@ -193,17 +193,19 @@ p {
   padding: 34px;
 }
 .col1 {
-  flex: 0 1 40%;
+  flex: 0 1 49%;
 }
 .col2 img {
   width: 100%;
 }
 .col2 {
-  flex: 0 1 56%;
+  flex: 0 1 49%;
 }
 
 /* our blog */
-
+.blog-section {
+  padding: 32px;
+}
 h2 {
   font-size: 46px;
   font-weight: 600;
@@ -218,6 +220,7 @@ h3 {
   width: 100%;
 }
 .col3 {
+  flex-wrap: wrap;
   flex: 0 1 30%;
 }
 
