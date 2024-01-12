@@ -19,11 +19,15 @@
   <body>
     <!-- header  -->
     <header>
-      <div class="container flex">
-        <h1 class="white">Alt Events</h1>
+      <div class="container flex header-column">
+        <h1 href="index.html" class="white">Alt Events</h1>
         <!-- navigational links -->
-        <nav>
-          <ul class="flex">
+        <label class="bars" for="toggle">
+          <i class="fas fa-bars"></i>
+        </label>
+        <input id="toggle" type="checkbox" />
+        <nav class="nav-position">
+          <ul class="flex nav-column">
             <li>
               <a href="#">HOME</a>
             </li>
@@ -54,9 +58,9 @@
           </p>
           <button class="btn white">Register Now</button>
         </div>
-        <figure>
-          <img class="banner-img" src="./assets/hero.png" alt="banner-img" />
-        </figure>
+        <div>
+          <img class="banner-img" src="./assets/hero.png" alt="bannerimg" />
+        </div>
       </div>
     </header>
     <main>
