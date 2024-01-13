@@ -1,1 +1,1 @@
-Assignment 1 containing a project related to gym 
+Assignment 1 containing a project related to gym
